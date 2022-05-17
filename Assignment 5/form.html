@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #d23d8f, #084eb6);
+            height:100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+        .form{
+            position: absolute;
+            width: 350px;
+            height: 550px;
+            background-color: white;
+            top: 17%;
+            left: 37%;
+        }
+        h1{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 25px;
+            font-weight: 800;
+        }
+        .textbox{
+            position: relative;
+            top: 30px;
+            left: 41px;
+            width: 250px;
+            height: 46px;
+            border-radius: 5px;
+            background-color: #e8e6e9;
+            margin: 15px 0;   
+        }
+        .email{
+            position: absolute;
+            width: 210px;
+            height: 40px;
+            border-radius: 5px;
+            border-color: transparent;
+            font-weight: 700;
+            background-color: #e8e6e9;
+            left: 50px;
+        }
+        i{
+            position: absolute;
+            top: 13px;
+            left: 15px;
+            font-size: 20px;
+            color: darkgrey;
+        }
+        .checkbox{
+            position:absolute;
+            font-size: 13px;
+            left: 41px;
+            top : 250px;
+            color: darkgrey;
+        }
+        #btn_login{
+            width: 270px;
+            height: 46px;
+            margin-top: 80px;
+            margin-left: 40px;
+            border-radius: 5px;
+            color: white;
+            background-color: #d53e8f;
+            border-color: transparent;
+            font-weight: 700;
+        }
+        #text{
+            margin-top: 40px;
+            margin-left: 140px;
+            color: darkgrey;
+            font-size: 14px;
+        }
+        .social_button button{
+            width: 140px;
+            padding: 3px 0;
+            margin-top: 15px;
+            background-color: white;
+            border-style: solid;
+            border-color: darkgrey;
+            border-radius: 5px;
+        }
+        #btn_facebook{
+            margin-left: 28px;
+            color: #365a92;
+        }
+        #btn_google{
+            margin-left: 10px;
+            color: #706f71;
+        }
+        .signup p{
+            font-size: 12px;
+            color: #706f71;
+            margin-top: 50px;
+            margin-left: 90px;
+        }
+        .signup a:visited{
+            color: #706f71;
+        }
+
+   
+    </style>
+</head>
+<body>
+    <div class="form">
+            <h1>LOGIN</h1>
+            <div class="textbox">
+                <i class="fa-regular fa-envelope"></i>
+                <input class="email" type="email" placeholder="Email">
+            </div>
+            <div class="textbox">
+                <i class="fas fa-lock"></i>
+                <input class="email" type="password" placeholder="Password">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" checked="checked">Remember me
+            </div>
+            <div>
+                <button id="btn_login">LOGIN</button>
+                <p id="text">Or login with</p>
+            </div>
+            <div class="social_button">
+                <button id="btn_facebook"><img src="icon/facebook.ico" width="17px">   <b>Facebook</b></button>
+                <button id="btn_google"><img class="image" src="icon/google.ico" width="17px">   <b>Google</b></button>
+            </div>
+            <div class="signup">
+                <p><b>Not a member? <a href="">Sign up now</a></b></p>
+            </div>
+    </div>
+</body>
+</html>

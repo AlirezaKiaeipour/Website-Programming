@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Google</title>
+    <style>
+        .header{
+            direction: rtl;
+            position: absolute;
+            font-size: 15px;
+            font-weight: 500;
+            right: 20px;
+            top: 15px;
+        }
+        .header a{
+            padding: 10px;
+            text-decoration: none;
+        }
+        .header a:visited{
+            color: black;
+        }
+        .header a:hover{
+            text-decoration: underline;
+        }
+        .header button{
+            width: 100px;
+            color: white;
+            font-weight: 500;
+            border-style: none;
+            border-radius: 5px;
+            background-color: #1a73e8;
+            padding: 12px 23px;
+        }
+        .logo{
+            position: absolute;
+            top: -60px;
+            left: 37%;
+        }
+        .textbox{
+            position: absolute;
+            top: 30%;
+            left: 470px ;
+            height: 48px;
+            width: 580px;
+            border-radius: 25px;
+            border: solid 1px grey;
+        }
+        .textbox input{
+            position: absolute;
+            left: 40px;
+            width: 536px;
+            height: 46px;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+        }
+        .textbox i{
+            color: grey;
+            font-size: large;
+            position: absolute;
+            top: 18px;
+            left: 18px;
+        }
+        .textbox input:focus{
+            border-color:gray; 
+        }
+        .textbox img{
+            position: absolute;
+            top: 13px;
+            left: 540px;
+        }
+        .button{
+            position: relative;
+            left: 610px;
+            top: 300px;
+        }
+        .button button{
+            width: 108;
+            padding: 10px 16px;
+            margin: 0 5px;
+            border-style: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgb(60, 64, 67);
+            background-color: rgb(248, 249, 250);
+        }
+        .button button:hover{
+            border-style: solid;
+            border-color: rgb(248, 249, 250);
+        }
+        .footer{
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            bottom: 0px;
+            background-color: #f2f2f2;
+
+        }
+        .footer_l{
+            position: fixed;
+            left: 40px;
+            bottom: 15px;
+        }
+        .footer_r{
+            position: fixed;
+            right: 40px;
+            bottom: 15px;
+        }
+        .footer_l a{
+            padding: 10px 10px;
+            color: gray;
+            text-decoration: none;
+        }
+        .footer_r a{
+            direction: rtl;
+            padding: 10px 10px;
+            color: gray;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button>Sign in</button>
+        <a href=""><img src="icon/app.ico" width="24px"></a>
+        <a href="">Gmail</a> 
+        <a href="">Image</a>  
+    </div>
+    <div class="logo">
+        <img src="icon/google_logo.png" width="390">
+    </div>
+    <div class="textbox">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text">
+        <img src="icon/voice.png" width="16px">
+    </div>
+    <div class="button">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+    <div class="footer">
+        <div class="footer_l">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How Search Works</a>
+        </div>
+        <div class="footer_r">
+            <a href="">Report inappropriate content</a>
+            <a href="">Consumer information</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+    </div>
+</body>
+</html>
