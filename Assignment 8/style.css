@@ -1,0 +1,361 @@
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.menu li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    transition: background-color 0.5s , color 0.5s ;
+}
+#home{
+    background-color: #009688;
+    color: white;
+    white-space: pre;
+}
+#home:hover{
+    background-color: darkgray;
+    color: black;
+}
+#dropdown:hover{
+    background-color: darkgray;
+    color: black;
+}
+#search:hover{
+    background-color: #009688;
+    color: white;
+}
+.submenu{
+    position:absolute;
+    display: none;
+    min-width: 150px;
+    background-color: white;
+}
+.submenu .sub{
+    color: black;
+}
+.submenu .sub:hover{
+    background-color: darkgray
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.head h1{
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+.head p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#row_team{
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+.col_team{
+    width: 25%;
+    padding: 20px 90px;
+}
+.section_team{
+    width: 100%;
+    height: 100%;
+}
+.section_team img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.section_team img:hover{
+    transition: opacity 0.5s;
+    opacity: 0.5;
+}
+.section_team h2,h4{
+    text-align: center;
+    font-weight: 500;
+}
+#row_work{
+    width: 100%;
+    height: 650px;
+    background-color: #333333;
+    display: flex;
+}
+.col_work{
+    width: 24%;
+    padding: 70px 10px;
+}
+
+.section_work{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.section_work h2,p,h1{
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+#row_price{
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+.col_price{
+    width: 33%;
+    padding: 30px 10px;
+}
+.section_price{
+    border: solid 1px darkgray;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.section_price:hover{
+    box-shadow: 0 0 5px 5px darkgray;
+}
+
+.section_price h1{
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+.section_price p{
+    padding: 7px 0;
+    text-align: center;
+}
+.section_price h1{
+    padding-top: 25px;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.section_price i{
+    font-size: 30px;
+    font-weight: 900;
+}
+.section_price .money{
+    font-size: 30px;
+}
+.btn_sign{
+    font-size: 17px;
+    border: none;
+    text-align: center;
+    padding: 12px 30px;
+    margin: 20px 170px;
+    color: white;
+    background-color: #009688;
+}
+.btn_sign:hover{
+    color: black;
+    background-color: lightgrey;
+}
+.btn_sign i{
+    font-size: 15px;
+}
+.btn{
+    margin-top: -10px;
+    width: 100%;
+    height: 98px;
+    background-color: #f0f0f0;
+}
+#row_contact{
+    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    background-color: #f0f0f0;
+    display: flex;
+}
+.col_contact{
+    width: 40%;
+    padding: 50px 5px;
+}
+.section_contact{
+    width: 100%;
+    height: 100%;
+}
+.section_contact h1{
+    text-decoration: underline 5px #009688;
+    padding-left: 3px;
+}
+.section_contact p{
+    font-size: 17px;
+    white-space: pre;
+    padding-left: 3px;
+}
+.section_contact i{
+    color: #009688;
+    font-size: 25px;
+}
+.section_contact form{
+    box-sizing: border-box;
+    width: 880px;
+    height: 350px;
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px 5px darkgray;
+}
+.section_contact input{
+    border: none;
+    width: 840px;
+    height: 35px;
+    border-bottom: solid 1px darkgray;
+}
+.section_contact button{
+    float: right;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 15px 15px;
+}
+.section_contact button:hover{
+    background-color: darkgray;
+    color: black;
+    border: none;
+}
+#footer{
+    margin-top: -25px;
+    padding: 0;
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
+#footer h2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+}
+.social{
+    list-style-type: none;
+    padding-left: 42%;
+}
+#footer li{
+    float: left;
+    padding: 25px 3px;
+}
+
+#footer a{
+    background-color: #009688;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+#footer a:hover{
+    background-color: darkgray;
+    color: black;
+}
+
+@media only screen and (max-width: 820px){
+    #row_team{
+        height: 750px;
+        flex-wrap: wrap;
+    }
+    .col_team{
+        padding-left: 13%;
+    }
+ 
+    .btn_sign{
+        padding: 12px 15px;
+        margin: 20px 60px;  
+    }
+    .col_contact{
+        padding: 30px 20px;
+        width: 45%;
+        padding: 50px 2px;
+    }
+    .section_contact form{
+        width: 400px;
+        padding: 5px 10px;
+    }
+    .section_contact input{
+        width: 360px;
+        height: 35px;
+    }
+    .social{
+        padding-left: 33%;
+    }
+    #row_work{
+        height: 570px;
+    }
+    .nave_work{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .menu li a{
+        padding: 12px 7px;
+        font-size: 13px;
+    }
+    #row_team{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .col_team{
+        width: 50%;
+        padding-left: 25%;
+    }
+    #row_work{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .col_work{
+        width: 100%;
+        padding: 30px 10px;
+    }
+    #row_price{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .col_price{
+        width: 28%;
+        padding: 30px 10px;
+    }
+    .section_price h1{
+        font-size: 20px;
+        padding: 15px 10px;
+        height: 10%;
+    }
+    .btn_sign{
+        font-size: 13px;
+        padding: 10px 5px;
+        margin: 25px 20px;
+    }
+    #row_contact{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .col_contact{
+        width: 50%;
+        padding: 20px 5px;
+    }
+    .social{
+        padding-left: 18%;
+    }
+}
