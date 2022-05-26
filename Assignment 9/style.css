@@ -1,0 +1,645 @@
+@font-face {
+    font-family: font;
+    src: url("font/iransans.ttf");
+}
+
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    font-family: font;
+}
+header{
+    width: 85%;
+    height: 44rem;
+    background-color: rgb(249, 250, 251);
+    margin: 3% 7.5%;
+    position: relative;
+    overflow: hidden;
+    border-bottom-right-radius: 130px;
+} 
+.head img{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 12%;
+}
+.head button{
+    position: relative;
+    padding: 12px 12px;
+    font-family: font;
+    font-size: 15px;
+    float: left;
+    top: 60px;
+    left: 3%;
+    border-radius: 7px;
+    border-style: none;
+    margin-left: 1%;
+}
+.head button:nth-child(1){
+    color: white;
+    background-color: rgb(255, 0, 166);
+    font-weight: 700;
+    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px 
+}
+.head button:nth-child(1):hover{
+    background-color: rgb(255, 0, 179);
+}
+.head button:nth-child(1):active{
+    box-shadow: -4px -4px 4px #cbced1, 4px 4px 6px
+}
+.head button:nth-child(2){
+    color: #3a3d42;
+    margin-top: -0.8%;
+    background-color: transparent;
+}
+.head button svg{
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+.slide img{
+    position: absolute;
+    top: 15%;
+    right: 51%;
+    width: 73%;
+}
+#slider_body{
+    position: relative;
+    top: 30%;
+    right: 4%;
+    line-height: 1.2rem;
+}
+#slider_body h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #3a3d42;
+
+}
+#slider_body h1 span{
+    color: rgb(255, 0, 166);
+}
+#slider_body h2{
+    color: #53565c;
+    font-size: 17px;
+    font-weight: 200; 
+}
+#slider_body input{
+    background: #ecf0f3;
+    margin-top: 2%;
+    width: 30%;
+    padding: 16px 10px;
+    border-radius: 100px;
+    border-style: none;
+    font-family: font;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -8px -8px 6px white;
+}
+#search button{
+    position: relative;
+    left: 4%;
+    top: 3px;
+    font-size: 19px;
+    font-weight: 100;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 0, 166);
+    color: white;
+    border-style: none;
+    border-radius: 100%;
+    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px 
+}
+#search button:active{
+    box-shadow: -4px -4px 4px #cbced1, 4px 4px 6px
+}
+#head_row{
+    display: flex;
+    top: 42%;
+    right: 5%;
+    width: 90%;
+    position: relative;
+    border-radius: 30px;
+    backdrop-filter: blur(15px) saturate(180%);
+    background-color: rgba(211, 211, 211, 0.6);
+}
+.head_col{
+    width: 90%;
+    text-align: center;
+}
+.head_section h6{
+    font-size: 12px;
+    color: #53565c;
+    font-weight: 500;
+}
+.head_section img{
+    width: 45px;
+    padding-top: 15px;
+}
+
+#grouping_row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-right: 5%;
+}
+.grouping_col{
+    width: 16.16%;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.grouping_section img{
+    width: 190px;
+    height: 95px;
+    border: solid 5px white;
+    border-radius: 15px;
+    box-shadow: 10px 0px 20px 10px #F9FAFB;
+}
+.text_section{
+    position: relative;
+    text-align: center;
+    width: 55%;
+    padding: 5px 0;
+    top: -42px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 12px;
+    background-color: white;
+}
+.text_section i{
+    color: rgb(255, 0, 166);
+}
+#app_row{
+    width: 85%;
+    display: flex;
+    height: 32rem;
+    margin-top: 7%;
+    margin-right: 7.5%;
+    background-color: rgb(235, 237, 240);
+    border-bottom-right-radius: 7.2rem;   
+    position: relative;
+    
+}
+.app_col{
+    width: 42.5%;
+}
+.app_section img{
+    position: absolute;
+    width: 424px;
+    top: -28%;
+    left: 4%;
+}
+.app_section h1,p{
+    position: relative;
+    top: 1.8rem;
+    left: 75%;
+    line-height: 2.2rem;
+}
+.app_section input{
+    position: relative;
+    left: 75%;
+    top: 1rem;
+    background: #ecf0f3;
+    margin-top: 2%;
+    width: 50%;
+    padding: 14px 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: font;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -8px -8px 6px white;
+}
+.app_section button{
+    position: relative;
+    left: 94%;
+    top: 1rem;
+    padding: 7px 10px;
+    width: 17%;
+    background-color: rgb(255, 0, 166);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px;
+    font-family: font;
+}
+.app_section button:active{
+    box-shadow: -4px -4px 4px #cbced1, 4px 4px 6px
+}
+.app_section button:hover{
+    background-color: rgb(255, 0, 179);
+}
+
+#business_row{
+    width: 85%;
+    display: flex;
+    height: 22rem;
+    margin-top: 10%;
+    margin-right: 7.5%;
+    border-radius: 2rem;  
+    position: relative;
+    backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(235, 237, 240, 0.5);
+}
+.business_col{
+    width: 42.5%;
+}
+.business_section img{
+    position: absolute;
+    width: 351px;
+    top: -20%;
+    left: 4%;
+}
+.business_section h1,p{
+    position: relative;
+    top: 1.8rem;
+    left: 80%;
+    line-height: 3.5rem;
+    color: #3a3d42;
+}
+.business_section button{
+    position: relative;
+    padding: 5px 12px;
+    padding-bottom: 10px;
+    font-family: font;
+    font-size: 18px;
+    top: 2.2rem;
+    left: 81%;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    background-color: rgb(255, 0, 166);
+    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px
+}
+.business_section button svg{
+    position: relative;
+    top: 0.5rem;
+}
+#city_row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+#city_text{
+    color: #3a3d42;
+    margin: 2% 2%;
+    font-size: 16px;
+}
+.city_col{
+    margin-right: 2%;
+    position: relative;
+    width: 6%;
+    padding: 5px 0px; 
+}
+.city_sec{
+    color: #a6aaad;
+    font-size: 11px;
+}
+footer{
+    width: 100%;
+    background-color: #F9FAFB;
+    height: 20rem;
+    margin-top: 2%;
+}
+.footer_right img{
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 81px;
+}
+.footer_right p{
+    position: relative;
+    float: left;
+}
+.footer_right p:nth-child(2){
+    font-size: 19px;
+    left: 85.5%;
+    top: 0.5rem;
+    color: rgb(255, 0, 166);
+}
+.footer_right p:nth-child(3){
+    color: #53565c;
+    font-size: 13px;
+    left: 72%;
+    top: 2.5rem;
+}
+.social{
+    list-style-type: none;
+    display: flex;
+    margin-right: 6%;
+}
+.social li{
+    width: 20px;
+    height: 20px;
+    padding: 12px 12px;
+    border-radius: 100%;
+    background-color: #F9FAFB;
+    margin: 15px 7px;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001;
+}
+
+.footer_center{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.33%;
+    position: relative;
+    right: 40%;
+    top: -42%;
+}
+.footer_center_col{
+    width: 40%;
+    padding: 10px 25px;
+}
+.footer_center_section{
+    font-size: 12px;
+    color: #3a3d42;
+}
+.footer_left{
+    position: relative;
+    top: -21rem;
+    display: flex;
+    margin-right: 85%;
+}
+.footer_left img{
+    width: 71px;
+    display: flex;
+}
+
+@media only screen and (max-width: 820px){
+    .head button{
+        position: relative;
+        top: 30px;
+    } 
+    .head button:nth-child(2){
+        display: none;
+    }
+    #slider_body{
+        position: relative;
+        top: 15%;
+        right: 4%;
+        line-height: 1.2rem;
+    }
+    #slider_body h1{
+        font-size: 30px;
+    }
+    #slider_body h2{
+        font-size: 15px;
+    }
+    #head_row{
+        position: relative;
+        top: 25%;
+        height: 9rem;
+    }
+    .slide img{
+        height: 100%;
+    }
+    header{
+        width: 95%;
+        height: 28rem;
+        margin: 3% 2.5%;
+    } 
+    #grouping_row{
+        width: 95%;
+    }
+    .grouping_col{
+        width: 31.33%;
+    }
+    #app_row{
+        width: 95%;
+        margin-right: 2.5%;  
+    }
+    .app_col{
+        width: 50%;
+    }
+    .app_section h1,p{
+        position: relative;
+        top: 1.8rem;
+        left: 90%;
+        line-height: 2.5rem;
+    }
+    .app_section img{
+        position: absolute;
+        width: 320px;
+        top: -20%;
+        left: 3%;
+    }
+    .app_section input{
+    position: relative;
+    left: 90%;
+    width: 80%;
+}
+.app_section button{
+    position: relative;
+    left: 32%;
+    top: -1.6rem;
+    width: 25%;
+}
+#business_row{
+    width: 95%;
+    margin-right: 2.5%;
+}
+.business_col{
+    width: 60%;
+}
+.business_section img{
+    position: absolute;
+    width: 250px;
+    top: -15%;
+    left: 4%;
+}
+.business_section h1,p{
+    position: relative;
+    top: 1rem;
+    left: 95%;
+}
+.business_section button{
+    position: relative;
+    left: 95%;
+}
+#city_text{
+    margin: 2% 5%;
+}
+.city_col{
+    margin-right: 5%;
+    width: 20%; 
+}
+footer{
+    width: 100%;
+    background-color: #F9FAFB;
+    height: 20rem;
+    margin-top: 2%;
+}
+.footer_right img{
+    margin-right: 2%;
+    width: 71px;
+}
+.footer_right p:nth-child(2){
+    left: 78%;
+    top: -0.25rem;
+}
+.footer_right p:nth-child(3){
+    left: 53%;
+    top: 1.5rem;
+}
+.social{
+    list-style-type: none;
+    display: flex;
+    margin-right: 58%;
+    margin-top: -7%;
+}
+.footer_left{
+    margin-right: 82%;
+    margin-top: 20%;
+}
+.footer_center{
+    width: 50%;
+    position: relative;
+    right: 30%;
+    top: 0%;
+}
+.footer_center_col{
+    width: 35%;
+}
+}
+@media only screen and (max-width: 420px){
+    header{
+        width: 115%;
+        height: 28rem;
+        margin: 3% 2.5%;
+        border-radius: 10px;
+    }  
+    .head button{
+        position: relative;
+        top: 1rem;
+    } 
+    #slider_body{
+        line-height: 1rem;
+    }
+    #slider_body h1{
+        font-size: 24px;
+    }
+    #slider_body h2{
+        font-size: 12px;
+    }
+    #slider_body input{
+        margin-top: 2%;
+        width: 45%;
+        padding: 10px 10px;
+    }
+    #search button{
+        position: relative;
+        left: 8%;
+        width: 30px;
+        height: 30px;
+    }
+    #head_row{
+        flex-wrap: wrap;
+        height: 10rem;
+    }
+    .head_col{
+        width: 20%;
+        margin-top: 1rem;
+    }
+    .head_section h6{
+        margin-top: -0.5rem;
+    }
+    .head_section img{
+        margin-top: -2rem;
+    }
+    .grouping_col{
+        width: 50%;
+    }
+    .grouping_section img{
+        box-shadow: none;
+    }
+    #app_row{
+        width: 112%;
+        flex-wrap: wrap;
+        margin-right: 2.4%;
+        border-radius: 10px;  
+    }
+    .app_col{
+        width: 100%;
+    }
+    .app_section h1,p{
+        position: relative;
+        top: -3rem;
+        right: 1%;
+    }
+    .app_section img{
+        display: none;
+    }
+    .app_section input{
+    position: relative;
+    top: -2rem;
+    right: 2%;
+    width: 60%;
+    }
+    .app_section button{
+        position: relative;
+        left: 25%;
+        top: -2rem;
+    }
+    #business_row{
+        width: 112%;
+        flex-wrap: wrap;
+        margin-right: 2.4%;
+        border-radius: 10px;
+    }
+    .business_col{
+        width: 100%;
+    }
+    .business_section img{
+        display: none;
+    }
+    .business_section h1,p{
+        position: relative;
+        top: -2rem;
+        left: 0;
+        padding-right: 2%;
+    }
+    .business_section button{
+        position: relative;
+        top: -1rem;
+        right: 3%;
+    }
+    footer{
+        width: 117%;
+        background-color: #F9FAFB;
+        height: 20rem;
+        margin-top: 2%;
+    }
+    .footer_right p:nth-child(2){
+        margin-left: 66%;
+        margin-top: 1.5%;
+    }
+    .footer_right p:nth-child(3){
+        margin-left: 38%;
+        margin-top: -13%;
+    }
+    .social{
+        margin-left: 88%;
+        margin-top: 0%;
+    }
+    .footer_left img{
+        width: 48px;
+    }
+    .footer_left{
+        margin-left: 25%;
+        margin-top: 60%;
+    }
+    .footer_center{
+        width: 100%;
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+    .footer_center_col{
+        width: 40%;
+        padding: 5px 1px;
+    }
+}
