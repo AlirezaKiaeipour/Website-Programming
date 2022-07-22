@@ -53,6 +53,30 @@ header{
     margin-top: -0.8%;
     background-color: transparent;
 }
+#dark_mode{
+    background-color: rgb(255, 0, 179);
+    color: white;
+    font-weight: 700;
+    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px
+}
+#dark_mode:hover{
+    background-color: rgb(255, 0, 179);
+}
+#dark_mode:active{
+    box-shadow: -4px -4px 4px #cbced1, 4px 4px 6px
+}
+#light_mode{
+    background-color: rgb(255, 0, 179);
+    color: white;
+    font-weight: 700;
+    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px
+}
+#light_mode:hover{
+    background-color: rgb(255, 0, 179);
+}
+#light_mode:active{
+    box-shadow: -4px -4px 4px #cbced1, 4px 4px 6px
+}
 .head button svg{
     position: relative;
     left: 5px;
@@ -152,7 +176,7 @@ header{
     height: 95px;
     border: solid 5px white;
     border-radius: 15px;
-    box-shadow: 10px 0px 20px 10px #F9FAFB;
+
 }
 .text_section{
     position: relative;
@@ -265,7 +289,7 @@ header{
     border-style: none;
     color: white;
     background-color: rgb(255, 0, 166);
-    box-shadow: 4px 4px 6px #cbced1, -4px -4px 4px
+    box-shadow: 2px 2px 2px #3a3b3c, -2px -2px 2px
 }
 .business_section button svg{
     position: relative;
@@ -368,7 +392,6 @@ footer{
     width: 71px;
     display: flex;
 }
-
 @media only screen and (max-width: 820px){
     .head button{
         position: relative;
