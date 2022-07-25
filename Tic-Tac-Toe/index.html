@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Toc Toe</title>
+</head>
+<body>
+    <div id="main">
+        <table>
+            <tr>
+                <td><button onclick="btn_index(0,0)" class="cell"></button></td>
+                <td><button onclick="btn_index(0,1)" class="cell"></button></td>
+                <td><button onclick="btn_index(0,2)" class="cell"></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="btn_index(1,0)" class="cell"></button></td>
+                <td><button onclick="btn_index(1,1)" class="cell"></button></td>
+                <td><button onclick="btn_index(1,2)" class="cell"></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="btn_index(2,0)" class="cell"></button></td>
+                <td><button onclick="btn_index(2,1)" class="cell"></button></td>
+                <td><button onclick="btn_index(2,2)" class="cell"></button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="score">
+        <p>Player1: <b id="score_player1">0</b></p>
+        <p>Draw: <b id="score_draw">0</b></p>
+        <p>Player2: <b id="score_player2">0</b></p>
+    </div>
+    <div id="radio">
+        <input type="radio" id="radio_player" name="game_players">
+        <label for="player">Player VS Player</label>
+        <input type="radio" id="radio_cpu" name="game_players">
+        <label for="player">Player VS CPU</label>
+    </div>
+    <button onclick="reset()" id="reset">Reset</button>
+    <h1 id="banner"></h1>
+    <script src="script.js"></script>
+</body>
+</html>

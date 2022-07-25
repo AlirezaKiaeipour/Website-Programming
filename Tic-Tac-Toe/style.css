@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/img_1.webp");
+    text-align: center;
+}
+
+#main{
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.cell{
+    width: 110px;
+    margin: 2px;
+    height: 110px;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 64px;
+    font-weight: 700;
+    backdrop-filter: blur(15px) saturate(150%);
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+#score,#radio{
+    width: 335px;
+    margin-top: 10px;
+    margin-left: 39%;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ff0035;
+    backdrop-filter: blur(15px) saturate(150%);
+    background-color: rgba(211, 211, 211, 0.5);
+    
+}
+
+p{
+    display: inline;
+    padding: 10px;
+    color: rgb(44, 65, 255);
+}
+
+#reset{
+    width: 335px;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(44, 65, 255);
+    background-color: rgb(155, 193, 188);
+}
