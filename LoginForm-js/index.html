@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LoginForm</title>
+</head>
+<body>
+    <div>
+        <button id="register" onclick="register()">ثبت نام</button>
+    </div>
+    <form id="form">
+        <label>ثبت نام</label>
+        <input type="checkbox" name="dark" id="dark_mode" onclick="darkmode()">
+        <label id="dark">حالت تاریک</label>
+        <hr>
+        <label>نام</label>
+        <input type="text" placeholder="Enter Name">
+
+        <label>ایمیل</label>
+        <input type="text" placeholder="Enter Email">
+
+        <p style="text-align: center;">ایمیل شما به کاربران نمایش داده نمی شود</p>
+
+        <label>کلمه عبور</label>
+        <input type="password" placeholder="Password">
+
+        <input type="radio" name="marital" id="single" onclick="radio_spouse()">
+        <label>مجرد</label><br>
+
+        <input type="radio" name="marital" id="married" onclick="radio_spouse()">
+        <label>متاهل</label><br>
+
+        <div id="spouse_textbox">
+            <label>نام همسر</label>
+            <input type="text" placeholder="Enter Spouse Name">
+        </div>
+        
+        <input type="checkbox" id="checkbox_child" onclick="child()">
+        <label>دارای فرزند</label>
+
+        <div id="childs">
+            <label>فرزندان</label>
+            <button type="button" onclick="add_child()">+</button>
+            <button type="button" onclick="delete_child()">-</button>
+        </div>
+        
+        <div id="children"></div>
+
+        <button id="btn_register">ثبت نام</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

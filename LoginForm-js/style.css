@@ -1,0 +1,83 @@
+@font-face {
+    font-family: font;
+    src: url("font/iransans.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    direction: rtl;
+}
+
+#register{
+    padding: 15px 40px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: font;
+    background-color: tomato;
+    color: white;
+}
+
+form{
+    width: 400px;
+    /* height: 570px; */
+    margin-top: 10px;
+    padding: 25px 25px;
+    background-color: coral;
+    color: #3a3d42;
+    display: inline-block;
+    font-family: font;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+#dark_mode,#dark{
+    position: relative;
+    right: 55%;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#btn_register{
+    width: 100%;
+    margin-top: 15px;
+    padding: 5px 0;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: font;
+    color: #3a3d42;
+}
+
+#spouse_textbox{
+    display: none;
+}
+
+#childs{
+    margin-top: 15px;
+    display: none;
+}
+
+#childs button{
+    padding: 0 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#childs button:nth-child(2){
+    background-color: green;
+}
+
+#childs button:nth-child(3){
+    background-color: red;
+}
