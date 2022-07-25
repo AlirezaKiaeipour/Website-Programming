@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: darkseagreen;
+}
+#main{
+    top: 50px;
+    display: inline-block;
+    width: 500px;
+	height: 500px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.circle{
+    height: 50%;
+    width: 207px;
+    position: absolute;
+    clip-path: polygon(100% 0,50% 100%,0 0);
+    transform-origin: bottom;
+    border-radius: 50%;
+    left: 29%;
+}
+
+#sec1{
+    background-color: blue;
+}
+
+#sec2{
+    background-color: chartreuse;
+    transform: rotate(45deg);
+}
+
+#sec3{
+    background-color: crimson;
+    transform: rotate(90deg);
+}
+
+#sec4{
+    background-color: yellow;
+    transform: rotate(135deg);
+}
+
+#sec5{
+    background-color: green;
+    transform: rotate(180deg);
+}
+
+#sec6{
+    background-color: cyan;
+    transform: rotate(225deg);
+}
+
+#sec7{
+    background-color: darkorchid;
+    transform: rotate(270deg);
+}
+
+#sec8{
+    background-color: palevioletred;
+    transform: rotate(315deg);
+}
+
+#btn_spinner{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border-style: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: deeppink;
+}
