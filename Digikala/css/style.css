@@ -1,0 +1,100 @@
+@font-face {
+    font-family: iransans;
+    src: url("font/iransans.ttf");
+}
+body{
+    font-family: iransans !important;
+}
+#search{
+    width: 610px;
+}
+.none-border{
+    border: none;
+}
+.link_decoration:hover{
+    border-bottom: solid 4px #ef4056;
+    margin-top: -5px;
+}
+.carousel-indicators button{
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 100%;
+}
+#circle{
+    width: 52px;
+    height: 52px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 100%;
+    margin-right:40px;
+}
+.sec-seg span{
+    font-size: 14px !important;
+}
+.sec-seg span:nth-child(1),.sec12-off span:nth-child(1){
+    padding: 0 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: #ef4056;
+}
+#sec4-grouping,.sec13-grouping p{
+    font-size: 12px;
+}
+#sec6-grouping ,.sec-support span{
+    font-size: 13px;
+}
+.sec9-grouping small,.sec14-grouping p{
+    font-size: 11px;
+}
+.border-lg-sec6-right-top{
+    border-top-right-radius: 25px;
+}
+.border-lg-sec6-left-top{
+    border-top-left-radius: 25px;
+}
+.border-lg-sec6-right-buttom{
+    border-bottom-right-radius: 25px;
+}
+.border-lg-sec6-left-buttom{
+    border-bottom-left-radius: 25px;
+}
+.btn-sec9{
+    margin-right: 36%;
+}
+.btn-sec12{
+    margin-right: 47%;
+}
+.easy-access p{
+    font-size: 15px;
+    color: #81858b;
+}
+.easy-access-first{
+    font-size: 18px !important;
+}
+.text-black{
+    color: #424750 !important;
+}
+.search-box{
+    background-color: #f0f0f1;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-13{
+    font-size: 13px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+
+@media only screen and (max-width: 980px){
+    .none-border-radius{
+        border-radius: 0px !important;
+    }
+    #search{
+        max-width: 300px;
+    }
+}
+
+    .none-border-md{
+        border: none !important;
+    }
