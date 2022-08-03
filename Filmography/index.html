@@ -5,23 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alireza Kiaeipour">
+    <meta name="description" content="Filimography Template">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Filimography</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-warning" href="#"><b>Filmography</b></a>
+                <select class="form-select" id="select" aria-label="Default select example"
+                    onchange="movie_base_year(this)">
+                    <option selected value="0">Select Year</option>
+                </select>
+            </div>
+        </nav>
+
         <div class="container-fluid">
-            <a class="navbar-brand text-warning" href="#"><b>Filmography</b></a>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Select Year</option>
-            </select>
+            <img src="img/7.png" class="img-fluid rounded-4 my-4" alt="TopGun">
         </div>
-    </nav>
 
-    <div class="row film"></div>
+        <div id="container-head">
+            <div id="row-section-head"></div>
+        </div>
 
+        <div id="container">
+            <div id="row-section"></div>
+        </div>
+    </div>
 
     <script src="js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -30,5 +44,4 @@
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>
