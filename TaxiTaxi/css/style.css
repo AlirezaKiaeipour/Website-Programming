@@ -1,0 +1,41 @@
+@font-face {
+    font-family: kloche;
+    src: url("font/kloche.ttf");
+}
+@font-face {
+    font-family: iransans;
+    src: url("font/iransans.ttf");
+}
+body{
+    font-family: iransans;
+    background-color: #ffc107;
+}
+#navbar{
+    font-family: kloche;
+    background-color: #63c132 !important;
+}
+#taxi{
+    font-size: 35px !important;
+    color: #fccc04 !important;
+}
+#advertising{
+    font-family: iransans;
+    font-size: 28px !important;
+    color: red !important;
+}
+#advertising-taxi{
+    font-family: kloche;
+    color: #fccc04;
+}
+#map{
+    position: relative;
+    right: 2.5%;
+    width: 95%;
+    height: 400px;
+    
+}
+@media only screen and (max-width: 412px){
+    #advertising{
+        font-size: 15px !important;
+    }
+}
