@@ -16,16 +16,22 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand text-warning" href="#"><h3>Filimography</h3></a>
+                <a class="navbar-brand text-warning" href="#">
+                    <h3>Filimography</h3>
+                </a>
                 <select class="form-select" id="select" aria-label="Default select example"
                     onchange="movie_base_year(this)">
                     <option selected value="0">Select Year</option>
                 </select>
             </div>
+            <form class="d-flex w-25" role="search" id="search_form">
+                <input class="form-control me-2" type="search" placeholder="Search in Filimography" aria-label="Search" id="search_box">
+                <button class="btn btn-warning" type="button" onclick="show_search()">Search</button>
+            </form>
         </nav>
 
         <div class="container-fluid">
-            <img src="img/7.png" class="img-fluid rounded-4 my-4" alt="TopGun">
+            <img src="img/7.png" class="img-fluid rounded-4 my-4" alt="TopGun" id="slide">
         </div>
 
         <div id="container-head">
@@ -34,6 +40,10 @@
 
         <div id="container">
             <div id="row-section"></div>
+        </div>
+
+        <div id="container-search">
+            <div id="row-section-search"></div>
         </div>
     </div>
 
@@ -44,4 +54,5 @@
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

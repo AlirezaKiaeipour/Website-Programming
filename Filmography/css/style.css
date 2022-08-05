@@ -42,16 +42,23 @@ select {
     text-decoration: none;
     cursor: pointer;
 }
+.grayscale {filter: grayscale(100%);}
 @media only screen and (max-width: 920px){
     .modal-content {
         max-width: 50%;
     }
+    #search_form{
+        width: 300px !important;
+        margin-left: 60%;
+        margin-top: -5%;
+    }
 }
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 450px){
     select {
         min-width: 40% !important;
     }
-    .modal-content {
-        max-width: 80%;
+    #search_form{
+        margin-left: 3%;
+        margin-top: 2%;
     }
 }
