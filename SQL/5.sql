@@ -1,0 +1,1 @@
+UPDATE products SET price = price - 0.2*price;
